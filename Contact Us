@@ -1,15 +1,12 @@
  <!DOCTYPE html>
 <html lang="en">
   <head>
-    
-    <title>Contact Us</title>
-    <meta http-equiv="refersh" content="10">
+     <title>Contact Us</title>
     <style>
          fieldset {
     width: 300px;  
   }
-
-        </style>
+    </style>
   </head>
   <body>
     <h1>Contact Us</h1>
