@@ -72,8 +72,8 @@ button>a{
 button{
     margin-left: 27px;
     position: fixed;
-padding-right: 15px;
-    padding-left: 15px;
+padding-right: 30px;
+    padding-left: 30px;
     text-align: center;
 }
 caption{
@@ -108,6 +108,20 @@ tr{
     display: grid;
     grid-template-rows: auto;
     grid-template-columns: 0.45fr 1.75fr;
+}
+input[type=submit]
+{
+    background: #3C2F4A ;
+    color: #F1E9F9;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 5px;
+    font-family: Garamond;
+}
+div .j{
+    display: grid;
+    grid-template-rows: auto;;
+    grid-template-columns: auto auto;
 }
 
 
