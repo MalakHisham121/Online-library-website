@@ -49,7 +49,6 @@ nav >a:hover{
 }
 ul{
     color: #3C2F4A;
-    background: #F1E9F9;
     display: inline-grid;
     row-gap: 10px;
     font-size: 20px;
@@ -77,6 +76,40 @@ padding-right: 15px;
     padding-left: 15px;
     text-align: center;
 }
+caption{
+    font-size: 26px;
+    background:  #3C2F4A;
+    font-family: Garamond;
+    color: #F1E9F9;
+    border-radius: 10px;
+}
+label{
+    font-size: 17px;
+    font-family: Garamond;
+}
+input{
+    font-size: 15px;
+   padding-left: 7px;
+}
+input:focus{
+    background:#F0E2B8;
+
+}
+table{
+    display: grid;
+    row-gap: 30px;
+}
+tbody{
+    display: grid;
+    row-gap: 20px;
+    grid-template-rows: repeat(5,auto);
+}
+tr{
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 0.45fr 1.75fr;
+}
+
 
 
 
