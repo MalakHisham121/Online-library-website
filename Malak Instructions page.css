@@ -2,7 +2,7 @@ nav {
     overflow: hidden;
     background-color: #3C2F4A;
     margin-top: 30px ;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     top: 0;
     display: grid;
     grid-template-rows: auto;
@@ -39,7 +39,7 @@ nav >a{
     text-align: center;
     padding: 15px 18px;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 20px;
     font-family: Garamond;
 }
 nav >a:hover{
@@ -67,16 +67,20 @@ button>a{
     text-decoration: none;
     border: none;
     font-size: 15px;
-    color: #3C2F4A;
+    color:#F1E9F9 ;
 }
 button{
+background: #3C2F4A;
+    color:#F1E9F9 ;
     margin-left: 27px;
-    position: fixed;
 padding-right: 30px;
+    font-size: 15px;
     padding-left: 30px;
     text-align: center;
 }
 caption{
+    margin-right: 150px;
+    padding: 12px;
     font-size: 26px;
     background:  #3C2F4A;
     font-family: Garamond;
@@ -84,12 +88,13 @@ caption{
     border-radius: 10px;
 }
 label{
-    font-size: 17px;
+    font-size: 20px;
     font-family: Garamond;
 }
 input{
-    font-size: 15px;
-   padding-left: 7px;
+    font-size: 17px;
+   padding: 5px;
+
 }
 input:focus{
     background:#F0E2B8;
@@ -97,33 +102,48 @@ input:focus{
 }
 table{
     display: grid;
-    row-gap: 30px;
+    row-gap: 20px;
+    font-size: 40px;
 }
 tbody{
     display: grid;
-    row-gap: 20px;
+    row-gap: 2px;
     grid-template-rows: repeat(5,auto);
 }
 tr{
     display: grid;
     grid-template-rows: auto;
-    grid-template-columns: 0.45fr 1.75fr;
+    grid-template-columns: 0.45fr 2fr  2fr ;
+
 }
 input[type=submit]
 {
-    background: #3C2F4A ;
-    color: #F1E9F9;
-    padding-left: 40px;
-    padding-right: 40px;
-    border-radius: 5px;
-    font-family: Garamond;
+    background: #3C2F4A;
+    color:#F1E9F9 ;
+    margin-left: 27px;
+    padding-right: 30px;
+    font-size: 15px;
+    padding-left: 30px;
+    text-align: center;
 }
 div .j{
     display: grid;
     grid-template-rows: auto;;
     grid-template-columns: auto auto;
 }
+p{
+    font-family: Garamond;
+    font-size: 20px;
+    background: #E1C989;
+    padding: 7px;
+    border-radius: 6px;
+}
+.k{
+    display: grid;
+    grid-template-rows: auto ;
+    grid-template-columns: 0.3fr 1fr 1fr 1fr 1fr 1fr  ;
 
+}
 
 
 

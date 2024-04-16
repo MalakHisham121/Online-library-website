@@ -9,6 +9,8 @@
       <change beforePath="$PROJECT_DIR$/Adding a new book.html" beforeDir="false" afterPath="$PROJECT_DIR$/Adding a new book.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Delete book.html" beforeDir="false" afterPath="$PROJECT_DIR$/Delete book.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Malak Instructions page.css" beforeDir="false" afterPath="$PROJECT_DIR$/Malak Instructions page.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/edit book.html" beforeDir="false" afterPath="$PROJECT_DIR$/edit book.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/instucrtions.html" beforeDir="false" afterPath="$PROJECT_DIR$/instucrtions.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +67,7 @@
       <workItem from="1713202175279" duration="6532000" />
       <workItem from="1713274983550" duration="5371000" />
       <workItem from="1713283397082" duration="1215000" />
+      <workItem from="1713288498781" duration="6202000" />
     </task>
     <task id="LOCAL-00001" summary="phase 1 completed">
       <option name="closed" value="true" />
@@ -114,7 +117,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713280377145</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="phase 1 completed">
+      <option name="closed" value="true" />
+      <created>1713288658450</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1713288658450</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
