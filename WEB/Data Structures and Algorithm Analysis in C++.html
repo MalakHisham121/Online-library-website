@@ -4,6 +4,8 @@
         <title>
             Data Structures and Algorithm Analysis in C++
         </title>
+        <link rel="stylesheet" type="text/css" href="DataStyle.css">
+        <script src="DataScript.js"></script>
     </head>
     <body>
         <header>
@@ -40,9 +42,9 @@
                 to enhance their knowledge and skills in data structures and algorithm analysis.
             </p>
             <p>
-                <p><b>Status:</b> Available / Not Available</p>
-            
-                <button>Borrow Book</button>
+                <p><b>Status:</b> Available / <span id="unavailableText">Unavailable</span></p>
+                <button id="borrowButton" onclick="disableButton()">Borrow Book</button>
+                
             </p>
 
         </main>

@@ -4,6 +4,8 @@
         <title>
             Head First Objects-Oriented Analysis and Design
         </title>
+        <link rel="stylesheet" type="text/css" href="Head First Style.css">
+        <script src="Head First Script.js"></script>
     </head>
     <body>
         <header>
@@ -39,9 +41,9 @@
                 and Design" offers a fun and effective way to master the art of designing object-oriented software systems.
             </p>
             <p>
-                <p><b>Status:</b> Available / Not Available</p>
-            
-                <button>Borrow Book</button>
+                <p><b>Status:</b> Available / <span id="unavailableText">Unavailable</span></p>
+                <button id="borrowButton" onclick="disableButton()">Borrow Book</button>
+                
             </p>
 
         </main>

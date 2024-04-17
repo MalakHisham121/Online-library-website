@@ -4,6 +4,8 @@
         <title>
             Harry Potter and the Philosopher's Stone
         </title>
+        <link rel="stylesheet" type="text/css" href="HarryStyle.css">
+        <script src="HarryScript.js"></script>
     </head>
     <body>
         <header>
@@ -39,9 +41,9 @@
                    that continues to enchant and inspire readers around the world.
             </p>
             <p>
-                <p><b>Status:</b> Available / Not Available</p>
-            
-                <button>Borrow Book</button>
+                <p><b>Status:</b> Available / <span id="unavailableText">Unavailable</span></p>
+                <button id="borrowButton" onclick="disableButton()">Borrow Book</button>
+                
             </p>
 
         </main>

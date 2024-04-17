@@ -4,6 +4,8 @@
         <title>
             Create an account
         </title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="script.js" defer></script>
     </head>
     <body>
         <header>
@@ -20,30 +22,33 @@
             </nav>
         </header>
         <main>
-            <h1>Sign Up</h1>
+            <div class ="SignUp_box">
             <form action="" method="POST">
+            <h2>Sign Up</h2><br>
             <b>
             <label>Username:</label><br>
             </b>
-            <input type="text" placeholder="Username" name="name"><br><br>
-            <b>
+            <input type="text" placeholder="Username" name="name" required><br>
+             <div id="errorBox" style="color: red; display: none;"></div>
+        <b>
             <label>Password:</label><br>
             </b>
-            <input type="password" placeholder="complex password" name="password" required><br><br>
+            <input id="password" type="password" placeholder="complex password" name="password" required><br>
             <b>
             <label>confirm_password:</label><br>
             </b>
-            <input type="password" placeholder="confirm_password" required><br><br>
+            <input  id="confirm_password" type="password" placeholder="confirm_password" required><br>
+           
             <b>
             <label>Email:</label><br>
             </b>
-            <input type="email" placeholder="name@gmail.com" name="email" required><br><br>
+            <input type="email" placeholder="name@gmail.com" name="email" required><br>
             <input type="hidden" value="0">
             <input type="checkbox" value="1">
             <label type="is_admin_checkbox">Sign up as admin</label><br><br>
             <input type="submit" value="SignUp">
         </form>
-
+         </div>
         </main>
     </body>
 </html>

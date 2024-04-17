@@ -4,6 +4,8 @@
         <title>
             FUNDAMENTALS OF DATABASE SYSTEMS
         </title>
+        <link rel="stylesheet" type="text/css" href="DatabaseStyle.css">
+        <script src="DatabaseScript.js"></script>
     </head>
     <body>
         <header>
@@ -41,9 +43,9 @@
                 and that they have had some exposure to the basics of computer organization.
             </p>
             <p>
-                <p><b>Status:</b> Available / Not Available</p>
-            
-                <button>Borrow Book</button>
+                <p><b>Status:</b> Available / <span id="unavailableText">Unavailable</span></p>
+                <button id="borrowButton" onclick="disableButton()">Borrow Book</button>
+                
             </p>
 
         </main>
