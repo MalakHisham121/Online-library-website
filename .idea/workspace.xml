@@ -5,46 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c018cf6b-37ec-46bc-b472-41a7eab19429" name="Changes" comment="Malak">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Adding a new book.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Avalible books.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Book store/aboutlibrary.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Book store/search.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Delete book.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculty of Computers and Artificial Intelligence.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Login.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Malak Instructions page.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WEB/C++ How to Program, Global Edition 10th.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WEB/C++ How to Program.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WEB/DATABASE_SYSTEM.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WEB/Data Structures and Algorithm Analysis in C++.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WEB/Data Structures and Algorithm Analysis in C++.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WEB/FUNDAMENTALS OF DATABASE SYSTEMS.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WEB/Harry Potter and the Philosopher's Stone.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WEB/Harry Potter and the Philosopher's Stone.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WEB/Head First Objects-Oriented Analysis and Design.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WEB/Head First Objects-Oriented Analysis and Design.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WEB/SignUp.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book reviews/C++ How to Program.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book reviews/Data Structures and Algorithm Analysis in C++.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book reviews/FUNDAMENTALS OF DATABASE SYSTEMS.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book reviews/Harry Potter and the Philosopher's Stone.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book reviews/Head First Objects-Oriented Analysis and Design.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book reviews/book reviews.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/books dashboard.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact_us.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/edit book.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/forgot_password.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/homepage.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Scientific book.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/c++.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/database.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/harryPotter.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/logo.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/novel.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/religous photo.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instucrtions.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book reviews/book reviews.html" beforeDir="false" afterPath="$PROJECT_DIR$/book reviews/book reviews.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact_us.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact_us.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forgot_password.html" beforeDir="false" afterPath="$PROJECT_DIR$/forgot_password.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage.html" beforeDir="false" afterPath="$PROJECT_DIR$/homepage.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +67,6 @@
       <workItem from="1713274983550" duration="5371000" />
       <workItem from="1713283397082" duration="1215000" />
       <workItem from="1713288498781" duration="8682000" />
-      <workItem from="1713379659436" duration="304000" />
     </task>
     <task id="LOCAL-00001" summary="phase 1 completed">
       <option name="closed" value="true" />
