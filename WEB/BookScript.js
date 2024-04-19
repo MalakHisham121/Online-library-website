@@ -6,9 +6,20 @@ document.addEventListener('DOMContentLoaded',() => {
     if(!books){
         books = [
             {ID: 1, title: "Harry Potter and the Philosopher's Stone" , author : "J.K. Rowling"
-             ,category: "Fantasy / Young Adult Fiction" , Description:
+             , Category: "Fantasy / Young Adult Fiction" , Description:
              "Follow Harry Potter's journey as he discovers his magical heritage,attends Hogwarts, and confronts dark forces in a tale of magic, friendship, and bravery.",
-              available:true}
+              available:true},
+
+              
+              {ID: 2, title: "FUNDAMENTALS OF DATABASE SYSTEMS" , author : "Ramez Elmasri, Shamkant Navathe"
+             , Category: "Computer Science" , Description:
+             "Explore the core principles of database systems, covering data modeling, relational databases, query languages, transaction processing, and security. Ideal for students and professionals seeking a solid understanding of database fundamentals.",
+              available:true},
+              
+              {ID: 3, title: "Data Structures and Algorithm Analysis in C++" , author : "Mark A. Weiss"
+              , Category: "Computer Science / Data Structures" , Description:
+              "Delve into data structures and algorithm analysis in C++, covering essential topics such as data organization, algorithm efficiency, and problem-solving techniques. Perfect for students and professionals aiming to master the fundamentals of data structures and algorithms in the C++ programming language.",
+               available:true}
         ];
         localStorage.setItem('books' ,JSON.stringify(books));
     }
@@ -21,8 +32,6 @@ document.addEventListener('DOMContentLoaded',() => {
             bookItem.innerHTML = `
                 <h3>${book.title}</h3>
                 <p><b>Id:</b> ${book.ID}</p>
-                <p><b>Author:</b> ${book.author}</p>
-                <p><b>Title:</b> ${book.title}</p>
                 <p><b>Author:</b> ${book.author}</p>
                 <p><b>Category:</b> ${book.Category}</p>
                 <p><b>Description:</b> ${book.Description}</p>
@@ -47,6 +56,26 @@ document.addEventListener('DOMContentLoaded',() => {
         displayBooks();
     };
 
+    function addBook(ID,title, author, Category ,Description) {
+        const newBook = { ID,title, author, Category ,Description, available: true };
+        books.push(newBook);
+        localStorage.setItem('books', JSON.stringify(books));
+        displayBooks();
+    }
+    BookInfo.addEventListener('submit', e => {
+        e.preventDefault();
+        const id = document.getElementById('Id').value.trim();
+        const title = document.getElementById('Title').value.trim();
+        const author = document.getElementById('Author').value.trim();
+        const Category = document.getElementById('Category').value.trim();
+        const Description = document.getElementById('Description').value.trim();
+        if (id && author && title &&Category&&Description ) {
+            addBook(id,title, author,Category,Description);
+            BookInfo.reset();
+        } else {
+            alert('Please fill in all fields.');
+        }
+    });
    
 
 displayBooks(); 
