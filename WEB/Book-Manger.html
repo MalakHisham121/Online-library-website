@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+          ONLINE LIBRARY
+        </title>
+        <link rel="stylesheet" href="bookStyle.css">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href = "../Book store/search.html" title="Go to search page" target="_blank">🔍</a></li>
+                    <li><a href = "../homepage.html" title="Go to main page" target="_blank">Home</a></li>
+                    <li><a href = "SignUp.html" title="Go to SignUp page" target="_blank">Sign up</a></li>
+                    <li><a href = "../Login.html" title="Go to login page" target="_blank">Login</a></li>
+                    <li><a href = "../book reviews/book reviews.html" title="Go to book reviews" target="_blank">Book reviews</a></li>
+                    <li><a href = "../Book store/aboutlibrary.html" title="Go to About_Library" target="_blank">About us</a></li>
+                    <li><a href = "../contact_us.html" title="Go to contact_us" target="_blank">contact_us</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="books">
+           <h2>ONLINE LIBRARY</h2>
+            <form id ='bookInfo'> 
+                <input type="number" id="Id" placeholder="ID" required>
+                <input type="text" id="Title" placeholder="Book Name" required>
+                <input type="text" id="Author" placeholder="Author" required>
+                <input type="text" id="Category" placeholder="category" required>
+                <input type="text" id="Description" placeholder="description" required>
+                <button type="submit">Add Book</button>
+            </form>
+            <div id="book-list"></div>
+        </div>
+        <script src="BookScript.js"></script>
+    </body>
+</html>

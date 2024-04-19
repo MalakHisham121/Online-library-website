@@ -1,17 +1,22 @@
-document.addEventListener("DOMContentLoaded", function() {
-    const usernameInput = document.querySelector('input[name="name"]');
-    const errorBox = document.getElementById('errorBox');
+function validateForm(event){
+    event.preventDefault();
 
-    usernameInput.addEventListener('input', function() {
-        const username = this.value.trim();
-        const validUsernameRegex = /^[a-zA-Z]+$/; 
+    var username = document.getElementById("Username").value;
+    var password = document.getElementById("password").value;
+    var Confirmpassword = document.getElementById("confirm_password").value;
+    var error = document.getElementById("error");
 
-        if (!validUsernameRegex.test(username)) {
-            errorBox.textContent = "Username can only contain letters.";
-            errorBox.style.display = "block";
-        } else {
-            errorBox.textContent = "";
-            errorBox.style.display = "none";
-        }
-    });
-});
+    var letters = /^[a-zA-Z]+$/;
+    if (!username.match(letters)) {
+      error.textContent = "Username must contain only letters";
+      return;
+    }
+
+    if (password !== Confirmpassword) {
+        error.textContent = "Passwords do not match";
+        return;
+      }
+
+document.getElementById("signupForm").submit();
+
+}

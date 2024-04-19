@@ -17,8 +17,8 @@ body {
 }
 .SignUp_box{
     position: relative;
-    width: 400px;
-    height: 400px;
+    width: 450px;
+    height: 450px;
     background-color: rgba(0, 0, 0, 0.5);
     justify-content: center;
     align-items: center;
@@ -59,7 +59,9 @@ input[type="submit"] {
 input[type="submit"]:hover {
     background-color: #0056b3;
 }
-
+.error{
+    color: red;
+}
 nav{
     background-color: #333;
     padding: 10px;
