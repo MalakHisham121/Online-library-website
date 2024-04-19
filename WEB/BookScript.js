@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded',() => {
     if(!books){
         books = [
             {ID: 1, title: "Harry Potter and the Philosopher's Stone" , author : "J.K. Rowling"
-             , Category: "Fantasy / Young Adult Fiction" , Description:
+             , Category: "Fantasy/Young Adult Fiction" , Description:
              "Follow Harry Potter's journey as he discovers his magical heritage,attends Hogwarts, and confronts dark forces in a tale of magic, friendship, and bravery.",
               available:true},
 
@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded',() => {
               available:true},
               
               {ID: 3, title: "Data Structures and Algorithm Analysis in C++" , author : "Mark A. Weiss"
-              , Category: "Computer Science / Data Structures" , Description:
+              , Category: "Computer Science/Data Structures" , Description:
               "Delve into data structures and algorithm analysis in C++, covering essential topics such as data organization, algorithm efficiency, and problem-solving techniques. Perfect for students and professionals aiming to master the fundamentals of data structures and algorithms in the C++ programming language.",
                available:true}
         ];
