@@ -38,12 +38,13 @@ document.addEventListener('DOMContentLoaded',() => {
                 <p><b>Status:</b> ${book.available ? 'Available' : 'Not Available'}</p>
                 <button onclick="toggleAvailability(${index})">${book.available ? 'Borrow' : 'Return'}</button>
                 <button onclick="removeBook(${index})">Remove</button>
+                <button onclick="editBook(${index})">Edit</button>
             `;
             BookList.appendChild(bookItem);
         });
        
     }
-    
+
     window.toggleAvailability = function(index) {
         books[index].available = !books[index].available;
         localStorage.setItem('books', JSON.stringify(books));
@@ -62,6 +63,29 @@ document.addEventListener('DOMContentLoaded',() => {
         localStorage.setItem('books', JSON.stringify(books));
         displayBooks();
     }
+
+    window.editBook = function(index) {
+        const book = books[index];
+        const newTitle = prompt("Enter new title:", book.title);
+        const newAuthor = prompt("Enter new author:", book.author);
+        const newCategory = prompt("Enter new category:", book.Category);
+        const newDescription = prompt("Enter new description:", book.Description);
+    
+        if (newTitle && newAuthor && newCategory && newDescription) {
+            books[index] = {
+                ...book,
+                title: newTitle,
+                author: newAuthor,
+                Category: newCategory,
+                Description: newDescription
+            };
+            localStorage.setItem('books', JSON.stringify(books));
+            displayBooks();
+        } else {
+            alert('Please fill in all fields.');
+        }
+    };
+
     BookInfo.addEventListener('submit', e => {
         e.preventDefault();
         const id = document.getElementById('Id').value.trim();
