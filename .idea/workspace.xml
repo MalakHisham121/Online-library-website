@@ -6,10 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="c018cf6b-37ec-46bc-b472-41a7eab19429" name="Changes" comment="Malak">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book reviews/book reviews.html" beforeDir="false" afterPath="$PROJECT_DIR$/book reviews/book reviews.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact_us.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact_us.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forgot_password.html" beforeDir="false" afterPath="$PROJECT_DIR$/forgot_password.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homepage.html" beforeDir="false" afterPath="$PROJECT_DIR$/homepage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Malak Instructions page.css" beforeDir="false" afterPath="$PROJECT_DIR$/Malak Instructions page.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/instucrtions.html" beforeDir="false" afterPath="$PROJECT_DIR$/instucrtions.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +65,8 @@
       <workItem from="1713274983550" duration="5371000" />
       <workItem from="1713283397082" duration="1215000" />
       <workItem from="1713288498781" duration="8682000" />
+      <workItem from="1713618794424" duration="1921000" />
+      <workItem from="1713622598180" duration="1400000" />
     </task>
     <task id="LOCAL-00001" summary="phase 1 completed">
       <option name="closed" value="true" />

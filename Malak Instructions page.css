@@ -1,6 +1,6 @@
 nav {
     overflow: hidden;
-    background-color: #3C2F4A;
+    background-color: #121046;
     margin-top: 30px ;
     margin-bottom: 10px;
     top: 0;
@@ -11,7 +11,8 @@ nav {
 
 }
 body{
-    background: #F1E9F9;
+    background: url("WEB/library.jpg");
+    backdrop-filter: blur(30px);
     margin-left: 50px;
     margin-right: 50px;
 
@@ -40,28 +41,33 @@ nav >a{
     padding: 15px 18px;
     text-decoration: none;
     font-size: 20px;
+    font-weight: bold;
     font-family: Garamond;
 }
 nav >a:hover{
-    color: #E1C989;}
+    color: #d6cae2;}
 .r{
     height: 50px;
 }
 ul{
-    color: #3C2F4A;
-    display: inline-grid;
+    display: grid;
+    backdrop-filter: blur(30px);
     row-gap: 10px;
     font-size: 20px;
+
+
 
 }
 li>a{
     text-decoration: none;
-    color: #3C2F4A;
+font-size: x-large;
+    font-weight: bold;
+    color: #C5C3FF;
 
     font-family: Garamond;
 }
 ul>li>a:hover{
-    color: #E1C989;
+    color:#7E7AE7;
     text-decoration: none;
 }
 button>a{
@@ -71,7 +77,7 @@ button>a{
     color:#F1E9F9 ;
 }
 button{
-background: #3C2F4A;
+background:  #121046;
     color:#F1E9F9 ;
     margin-left: 27px;
 padding-right: 30px;
@@ -135,7 +141,10 @@ div .j{
 p{
     font-family: Garamond;
     font-size: 20px;
-    background: #E1C989;
+    color :  #121046;
+    background: darkgray;
+    font-size: 20px;
+    font-weight: bold;
     padding: 7px;
     border-radius: 6px;
 }
