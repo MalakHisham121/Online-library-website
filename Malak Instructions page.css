@@ -1,9 +1,8 @@
 nav {
-    overflow: hidden;
+
     background-color: #121046;
     margin-top: 30px ;
     margin-bottom: 10px;
-    top: 0;
     display: grid;
     grid-template-rows: auto;
     grid-template-columns:   repeat(22, auto);
@@ -11,8 +10,7 @@ nav {
 
 }
 body{
-    background: url("WEB/library.jpg");
-    backdrop-filter: blur(30px);
+    background-image: url("WEB/library3.png");
     margin-left: 50px;
     margin-right: 50px;
 
@@ -51,7 +49,6 @@ nav >a:hover{
 }
 ul{
     display: grid;
-    backdrop-filter: blur(30px);
     row-gap: 10px;
     font-size: 20px;
 
