@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Library Search</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <header>
+        <h1>Library Search</h1>
+        <nav>
+            <a  class = "f" href="\Book store/search.html" target="_blank">🔍</a>
+            <a href="\homepage.html" target="_blank">Homepage</a>
+            <a href="\Book store/aboutlibrary.html" target="_blank">About us</a>
+            <a href="\contact_us.html" target="_blank">Contact us</a>
+            <a href="\book reviews/book reviews.html" target="_blank">Book reviews</a>
+            <a href="\books dashboard.html" target="_blank">Books dashboard</a>
+    </nav>
+        <hr>
+    </header>
+    <br/>
+    <section>
+        <h2>Search for a Book</h2>
+        <form form id="searchForm">
+            <input type="text" id="searchTerm" name="searchTerm" placeholder="Search bytitle, author, or category">
+            <button type="submit">Search</button>
+        </form>
+        <article>
+            <a href="\web/Book-Manager.html">
+                <img src="\images/harryPotter.jpg" alt="Harry Potter" width="300" height="400">
+            </a>
+            <div>
+                <h2>Harry Potter and the Philosopher's Stone</h2>
+                <p><strong>Author:</strong> J. K. Rowling</p>
+                <p><strong>Category:</strong> Fantasy</p>
+                <p><strong>Description:</strong> The book is about 11-year-old Harry Potter, who receives a letter saying that he is invited to attend Hogwarts, school of witchcraft and wizardry. He then learns that a powerful wizard and his minions are after the sorcerer's stone that will make this evil wizard immortal and undefeatable.</p>
+            </div>
+        </article>
+        
+        <article>
+            <a href="\web/Book-Manager.html">
+                <img src="\images/database.png" alt="database" width="300" height="400">
+            </a>
+            <div>
+                <h2>FUNDAMENTALS OF Database Systems</h2>
+                <p><strong>Author:</strong> Ramez Elmasri, Shamkant B. Navathe</p>
+                <p><strong>Category:</strong> Computer Science</p>
+                <p><strong>Description:</strong> This book introduces the fundamental concepts necessary for designing, using, and implementing database systems and database applications.</p>
+            </div>
+        </article>
+        
+        <article>
+            <a href="\web/Book-Manager.html">
+                <img src="\images/c++.png" alt="C++ How to Program" width="300" height="400">
+            </a>
+            <div>
+                <h2>C++ How to Program</h2>
+                <p><strong>Author:</strong> Paul Deitel, Harvey Deitel</p>
+                <p><strong>Category:</strong> Computer Science</p>
+                <p><strong>Description:</strong> C++ How to Program presents leading-edge computing technologies in a friendly manner appropriate for introductory college course sequences, based on the curriculum recommendations of two key professional organizations – the ACM and the IEEE.</p>
+            </div>
+        </article>
+        <article>
+            <a href="\web/Book-Manager.html">
+                <img src="data_structures.jpeg" alt="Data Structures" width="300" height="400">
+            </a>
+            <div>
+                <h2>Data Structures and Algorithm Analysis in C++</h2>
+                <p><strong>Author:</strong> Mark A. Weiss</p>
+                <p><strong>Category:</strong> Computer Science</p>
+                <p><strong>Description:</strong> Delve into data structures and algorithm analysis in C++, covering essential topics such as data organization, algorithm efficiency, and problem-solving techniques. Perfect for students and professionals aiming to master the fundamentals of data structures and algorithms in the C++ programming language.</p>
+            </div>
+        </article>
+        
+    </section>
+    <section id="searchResults">
+        <!-- Search results will be displayed here -->
+    </section>
+    <script src="js.js"></script>
+</body>
+</html>
