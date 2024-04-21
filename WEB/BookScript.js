@@ -1,3 +1,4 @@
+
 document.addEventListener('DOMContentLoaded',() => {
     const BookInfo = document.getElementById('bookInfo')
     const BookList = document.getElementById('book-list')
@@ -63,28 +64,34 @@ document.addEventListener('DOMContentLoaded',() => {
         localStorage.setItem('books', JSON.stringify(books));
         displayBooks();
     }
+    window.editBook= function (index){
+        let url = `edit.html?index=${index}`;
+        window.location.href =  url ;
 
-    window.editBook = function(index) {
-        const book = books[index];
-        const newTitle = prompt("Enter new title:", book.title);
-        const newAuthor = prompt("Enter new author:", book.author);
-        const newCategory = prompt("Enter new category:", book.Category);
-        const newDescription = prompt("Enter new description:", book.Description);
-    
-        if (newTitle && newAuthor && newCategory && newDescription) {
-            books[index] = {
-                ...book,
-                title: newTitle,
-                author: newAuthor,
-                Category: newCategory,
-                Description: newDescription
-            };
-            localStorage.setItem('books', JSON.stringify(books));
-            displayBooks();
-        } else {
-            alert('Please fill in all fields.');
-        }
-    };
+
+    }
+
+    // window.editBook = function(index) {
+    //     const book = books[index];
+    //     const newTitle = prompt("Enter new title:", book.title);
+    //     const newAuthor = prompt("Enter new author:", book.author);
+    //     const newCategory = prompt("Enter new category:", book.Category);
+    //     const newDescription = prompt("Enter new description:", book.Description);
+    //
+    //     if (newTitle && newAuthor && newCategory && newDescription) {
+    //         books[index] = {
+    //             ...book,
+    //             title: newTitle,
+    //             author: newAuthor,
+    //             Category: newCategory,
+    //             Description: newDescription
+    //         };
+    //         localStorage.setItem('books', JSON.stringify(books));
+    //         displayBooks();
+    //     } else {
+    //         alert('Please fill in all fields.');
+    //     }
+    // };
 
     BookInfo.addEventListener('submit', e => {
         e.preventDefault();

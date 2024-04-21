@@ -4,16 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c018cf6b-37ec-46bc-b472-41a7eab19429" name="Changes" comment="Malak">
+    <list default="true" id="c018cf6b-37ec-46bc-b472-41a7eab19429" name="Changes" comment="files organized">
+      <change afterPath="$PROJECT_DIR$/WEB/edit.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WEB/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WEB/edit.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Book store/aboutlibrary.html" beforeDir="false" afterPath="$PROJECT_DIR$/Book store/aboutlibrary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Book store/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/Book store/search.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/about.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aboutlibrary.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact_us.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact_us.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/search.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Malak Instructions page.css" beforeDir="false" afterPath="$PROJECT_DIR$/Malak Instructions page.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB/Book-Manager.html" beforeDir="false" afterPath="$PROJECT_DIR$/WEB/Book-Manager.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB/BookScript.js" beforeDir="false" afterPath="$PROJECT_DIR$/WEB/BookScript.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +21,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -44,6 +44,7 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
@@ -73,7 +74,8 @@
       <workItem from="1713288498781" duration="8682000" />
       <workItem from="1713618794424" duration="1921000" />
       <workItem from="1713622598180" duration="4251000" />
-      <workItem from="1713668164496" duration="2056000" />
+      <workItem from="1713668164496" duration="4308000" />
+      <workItem from="1713678310206" duration="10342000" />
     </task>
     <task id="LOCAL-00001" summary="phase 1 completed">
       <option name="closed" value="true" />
@@ -163,7 +165,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713668241149</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="files organized">
+      <option name="closed" value="true" />
+      <created>1713670335280</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1713670335280</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,6 +193,18 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="phase 1 completed" />
     <MESSAGE value="Malak" />
-    <option name="LAST_COMMIT_MESSAGE" value="Malak" />
+    <MESSAGE value="files organized" />
+    <option name="LAST_COMMIT_MESSAGE" value="files organized" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/WEB/BookScript.js</url>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -1,8 +1,9 @@
 nav {
-
-    background-color: #121046;
+    overflow: hidden;
+    background-color: #3C2F4A;
     margin-top: 30px ;
     margin-bottom: 10px;
+    top: 0;
     display: grid;
     grid-template-rows: auto;
     grid-template-columns:   repeat(22, auto);
@@ -10,7 +11,7 @@ nav {
 
 }
 body{
-    background-image: url("WEB/library3.png");
+    background-image: url("library3.png");
     backdrop-filter: blur(30px);
     margin-left: 50px;
     margin-right: 50px;
@@ -40,32 +41,28 @@ nav >a{
     padding: 15px 18px;
     text-decoration: none;
     font-size: 20px;
-    font-weight: bold;
     font-family: Garamond;
 }
 nav >a:hover{
-    color: #d6cae2;}
+    color: #E1C989;}
 .r{
     height: 50px;
 }
 ul{
-    display: grid;
+    color: #3C2F4A;
+    display: inline-grid;
     row-gap: 10px;
     font-size: 20px;
-
-
 
 }
 li>a{
     text-decoration: none;
-font-size: x-large;
-    font-weight: bold;
-    color: #C5C3FF;
+    color: #3C2F4A;
 
     font-family: Garamond;
 }
 ul>li>a:hover{
-    color:#7E7AE7;
+    color: #E1C989;
     text-decoration: none;
 }
 button>a{
@@ -75,30 +72,33 @@ button>a{
     color:#F1E9F9 ;
 }
 button{
-background:  #121046;
+    background:  #121046;
     color:#F1E9F9 ;
     margin-left: 27px;
-padding-right: 30px;
+    padding: 5.5px 37px ;
     font-size: 15px;
-    padding-left: 30px;
     text-align: center;
 }
 caption{
-
+    margin-right: 150px;
     padding: 12px;
     font-size: 26px;
-    background:  #3C2F4A;
+    background:  #121046;
     font-family: Garamond;
     color: #F1E9F9;
     border-radius: 10px;
 }
 label{
-    font-size: 20px;
+    text-decoration: none;
+    font-size: x-large;
+    font-weight: bold;
+    color: #C5C3FF;
+
     font-family: Garamond;
 }
 input{
     font-size: 17px;
-   padding: 5px;
+    padding: 5px;
 
 }
 input:focus{
@@ -123,7 +123,7 @@ tr{
 }
 input[type=submit]
 {
-    background: #3C2F4A;
+    background:  #121046;
     color:#F1E9F9 ;
     margin-left: 27px;
     padding-right: 30px;
@@ -139,10 +139,7 @@ div .j{
 p{
     font-family: Garamond;
     font-size: 20px;
-    color :  #121046;
-    background: darkgray;
-    font-size: 20px;
-    font-weight: bold;
+    background: #E1C989;
     padding: 7px;
     border-radius: 6px;
 }
@@ -152,7 +149,6 @@ p{
     grid-template-columns: 0.3fr 1fr 1fr 1fr 1fr 1fr  ;
 
 }
-
 
 
 
