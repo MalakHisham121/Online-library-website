@@ -2,7 +2,7 @@
 document.addEventListener('DOMContentLoaded',() => {
     const BookInfo = document.getElementById('bookInfo')
     const BookList = document.getElementById('book-list')
-
+  
     let books = JSON.parse(localStorage.getItem('books'));
     if(!books){
         books = [
@@ -45,25 +45,42 @@ document.addEventListener('DOMContentLoaded',() => {
         });
        
     }
-
+    
     window.toggleAvailability = function(index) {
+        let inArr=false;
         books[index].available = !books[index].available;
         localStorage.setItem('books', JSON.stringify(books));
         displayBooks();
-    };
+        let borrowedBooks = JSON.parse(localStorage.getItem('borrowedBooks'));
+        //console.log(borrowedBooks);
+        if(borrowedBooks.length !=0){
+          //console.log(borrowedBooks.length)
+            borrowedBooks.forEach((book,index)=>{
+                if(books.id != undefined && book.id===books[index].id)
+                    inArr = true;
+            });
+        }
+       //console.log("before:");
+       // console.log(borrowedBooks);
+        if(books[index].available === false && !inArr){
+            borrowedBooks.push(books[index]);
+            localStorage.setItem('borrowedBooks', JSON.stringify(borrowedBooks));
+        }
+        else if(books[index].available === true && !inArr){
+            //console.log(`now deleting index: ${index}`);
+            const ind = borrowedBooks.indexOf(books[index]);
+            
+            const x = borrowedBooks.splice(index, 1);
+            console.log(borrowedBooks);
+            localStorage.setItem('borrowedBooks', JSON.stringify(borrowedBooks));
+            inArr=false
+        }
+        
+        //console.log("seperator")
+       
+      
 
-    window.removeBook = function(index) {
-        books.splice(index, 1);
-        localStorage.setItem('books', JSON.stringify(books));
-        displayBooks();
     };
-
-    function addBook(ID,title, author, Category ,Description) {
-        const newBook = { ID,title, author, Category ,Description, available: true };
-        books.push(newBook);
-        localStorage.setItem('books', JSON.stringify(books));
-        displayBooks();
-    }
     window.editBook= function (index){
         let url = `edit.html?index=${index}`;
         window.location.href =  url ;
@@ -93,6 +110,18 @@ document.addEventListener('DOMContentLoaded',() => {
     //     }
     // };
 
+    window.removeBook = function(index) {
+        books.splice(index, 1);
+        localStorage.setItem('books', JSON.stringify(books));
+        displayBooks();
+    };
+
+    function addBook(ID,title, author, Category ,Description) {
+        const newBook = { ID,title, author, Category ,Description, available: true };
+        books.push(newBook);
+        localStorage.setItem('books', JSON.stringify(books));
+        displayBooks();
+    }
     BookInfo.addEventListener('submit', e => {
         e.preventDefault();
         const id = document.getElementById('Id').value.trim();
@@ -110,4 +139,5 @@ document.addEventListener('DOMContentLoaded',() => {
    
 
 displayBooks(); 
+
 })

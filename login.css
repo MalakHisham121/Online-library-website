@@ -26,11 +26,11 @@ body{
     color:rgb(76, 74, 74);
 
 }
-nav{
+   nav{
     background-color: #3C2F4A;
     height:7rem;
  
-   /*border-radius: 3rem;*/
+   /*border-radius: 3rem; */
 }
 
 nav ul li{
@@ -67,8 +67,8 @@ nav a:link, nav a:visited{
 }
 nav a:hover{
     color:#F1E9F9 ;
-    
-}
+ } 
+ 
 #Role{
     position: absolute;
     right: 270px;

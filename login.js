@@ -2,6 +2,9 @@ let password = document.getElementById('password');
 let email =  document.getElementById('Email');
 const loginbtn = document.getElementById('LoginButton');
 
+let borrowedBooks = [];
+localStorage.setItem('borrowedBooks',JSON.stringify(borrowedBooks));
+
 loginbtn.addEventListener('click',(event)=>{
     event.preventDefault()
     let redirect = true;
