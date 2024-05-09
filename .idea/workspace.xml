@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c018cf6b-37ec-46bc-b472-41a7eab19429" name="Changes" comment="files organized">
-      <change afterPath="$PROJECT_DIR$/WEB/edit.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WEB/edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WEB/edit.js" afterDir="false" />
+    <list default="true" id="c018cf6b-37ec-46bc-b472-41a7eab19429" name="Changes" comment="phase 2 completed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Malak Instructions page.css" beforeDir="false" afterPath="$PROJECT_DIR$/Malak Instructions page.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WEB/Book-Manager.html" beforeDir="false" afterPath="$PROJECT_DIR$/WEB/Book-Manager.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WEB/BookScript.js" beforeDir="false" afterPath="$PROJECT_DIR$/WEB/BookScript.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Login.html" beforeDir="false" afterPath="$PROJECT_DIR$/Login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/instucrtions.html" beforeDir="false" afterPath="$PROJECT_DIR$/instucrtions.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/login.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,22 +39,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Web-college-project&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "D:/web2",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -76,6 +73,8 @@
       <workItem from="1713622598180" duration="4251000" />
       <workItem from="1713668164496" duration="4308000" />
       <workItem from="1713678310206" duration="10342000" />
+      <workItem from="1715252604255" duration="48000" />
+      <workItem from="1715258194378" duration="1856000" />
     </task>
     <task id="LOCAL-00001" summary="phase 1 completed">
       <option name="closed" value="true" />
@@ -173,7 +172,23 @@
       <option name="project" value="LOCAL" />
       <updated>1713670335280</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="phase 2 completed">
+      <option name="closed" value="true" />
+      <created>1715248958861</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1715248958861</updated>
+    </task>
+    <task id="LOCAL-00014" summary="phase 2 completed">
+      <option name="closed" value="true" />
+      <created>1715249276746</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1715249276746</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -194,14 +209,14 @@
     <MESSAGE value="phase 1 completed" />
     <MESSAGE value="Malak" />
     <MESSAGE value="files organized" />
-    <option name="LAST_COMMIT_MESSAGE" value="files organized" />
+    <MESSAGE value="phase 2 completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="phase 2 completed" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/WEB/BookScript.js</url>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
