@@ -1,5 +1,5 @@
 *{
-    font-family: Garamond;
+    font-family: 'Times New Roman';
    
 }
 
@@ -7,7 +7,7 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #F1E9F9;
+    
     background-image: url("images/harryPotter.jpg");
     background-repeat: no-repeat;
     background-size:cover;
@@ -27,8 +27,8 @@ body{
 
 }
    nav{
-    background-color: #3C2F4A;
-    height:7rem;
+
+    height:20px;
  
    /*border-radius: 3rem; */
 }
@@ -36,18 +36,18 @@ body{
 nav ul li{
     margin-top:0 ;
     padding-top: 0;
-    font-size:1.3rem;
+    font-size:10px;
     display: inline-block;
     padding: 5px;
-    color:white;
+    color:aliceblue;
 
 }
 
 ul{
-    padding: 1.75rem;
+    padding: 10px;
     text-align: right;
     margin:0;
-    color:white;
+    color:aliceblue;
 }
 
 
@@ -55,18 +55,18 @@ ul{
 nav a{
     text-decoration:none;
     font-size: larger;
-    margin: 0.5rem;
+    margin: 10px;
     font-weight: bold;
    
    
 }
 nav a:link, nav a:visited{
-    color:white;
+    color:aliceblue;
 
     
 }
 nav a:hover{
-    color:#F1E9F9 ;
+    color:aliceblue ;
  } 
  
 #Role{
@@ -77,7 +77,7 @@ nav a:hover{
     padding-top:20px;
     width:500px;
     font-size: large;
-    background-color:#F1E9F9;
+    background-color:aliceblue;
     height: 200px;
     border-radius:100px;
     border:solid #3C2F4A;
@@ -91,19 +91,19 @@ nav a:hover{
     position: relative;
     padding-left:100px ;
     padding-top:20px;
-    background-color:#F1E9F9;
+    background-color:aliceblue;
     width:500px;
     margin-left: 600px;
     padding-bottom: 20px;
     border-radius: 20px;
    margin-top: 200px;
-    border:solid #3C2F4A;
+
     border-width: 8px;
     
 }
 #email {
     padding-right: 10px;
-    border:solid rgb(243, 242, 242);
+    border:solid aliceblue;
     border-radius: 20px;
     height:20px;
     text-align: center;
@@ -114,14 +114,14 @@ nav a:hover{
 } 
 
 .FormlabelDesign{
-    margin-bottom: 20rem;
-    margin-right:100rem;
+    margin-bottom: 20px;
+    margin-right:100px;
    font-size: large;
    font-weight: bold;
 }
 #password{
     padding-right: 30px;
-    border:solid rgb(243, 242, 242);
+    border:solid aliceblue;
     border-radius: 20px;
     height:20px;
     text-align: center;
@@ -148,10 +148,10 @@ form{
 .LoginButton{
     width: 400px;
     height: 30px;
-    background-color: #3C2F4A;
-    color:#F1E9F9;
+
+    color:aliceblue;
     border-radius: 40px;
-    border-color: #F1E9F9;
+    border-color: aliceblue;
     font-size: medium;
 }
 *{
@@ -162,7 +162,7 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-image: url("images/teaser-book-with-heart-pages.jpg.webp");
+    background-image: url("WEB/library.jpg");
     background-repeat: no-repeat;
     background-size:cover;
 }
@@ -173,9 +173,9 @@ body{
    
 }
 nav{
-    background-color: #3C2F4A;
-    height:7rem;
-    color:white;
+    background-color: #333;
+    height:150px;
+    color:aliceblue;
    
    /*border-radius: 3rem;*/
 }
@@ -186,7 +186,7 @@ nav ul li{
     font-size:1.3rem;
     display: inline-block;
     padding: 5px;
-    color:white;
+    color:aliceblue;
 
 }
 
@@ -194,7 +194,7 @@ ul{
     padding: 1.75rem;
     text-align: right;
     margin:0;
-    color:white;
+    color:aliceblue;
 }
 
 
@@ -208,26 +208,27 @@ nav a{
    
 }
 a:link,a:visited{
-    color:white;
+    color:aliceblue;
 
     
 }
 a:hover{
-    color:#F1E9F9 ;
+    color:rgb(145, 198, 245);
     
 }
 #Role{
-    position: absolute;
-    right: 270px;
+    /*position: absolute;*/
+    margin-top:300px;
+    left: 1500px;
     margin-left:10px;
     padding-left:100px ;
     padding-top:20px;
     width:500px;
     font-size: large;
-    background-color:#F1E9F9;
+    background-color:aquamarine;
     height: 200px;
     border-radius:100px;
-    border:solid #3C2F4A;
+    border:solid #007bff;
     border-width: 8px;
 }
 .Title{
@@ -238,19 +239,19 @@ a:hover{
     position: relative;
     padding-left:100px ;
     padding-top:20px;
-    background-color:#F1E9F9;
+    background-color:aquamarine;
     width:500px;
     margin-left: 600px;
     padding-bottom: 20px;
     border-radius: 20px;
    margin-top: 200px;
-    border:solid #3C2F4A;
+    border:solid #007bff;
     border-width: 8px;
     
 }
 #Email {
     padding-right: 10px;
-    border:solid rgb(243, 242, 242);
+    border:solid aliceblue;
     border-radius: 20px;
     height:20px;
     text-align: center;
@@ -268,7 +269,7 @@ a:hover{
 }
 #password{
     padding-right: 30px;
-    border:solid rgb(243, 242, 242);
+    border:solid aliceblue;
     border-radius: 20px;
     height:20px;
     text-align: center;
@@ -293,9 +294,9 @@ form{
 #LoginButton{
     width: 400px;
     height: 30px;
-    background-color: #3C2F4A;
-    color:#F1E9F9;
+    background-color: #007bff;
+    color:aliceblue;
     border-radius: 40px;
-    border-color: #F1E9F9;
+    border-color: aliceblue;
     font-size: medium;
 }
