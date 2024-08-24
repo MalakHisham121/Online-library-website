@@ -1,0 +1,154 @@
+nav {
+
+    background-color:rgba(51, 51, 51, 0.9);
+    margin-top: 30px ;
+    margin-bottom: 10px;
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns:   repeat(22, auto);
+    border-radius: 10px;
+    color:white;
+
+}
+body{
+    background-color: rgb(107, 145, 187);
+
+    
+
+}
+.f{
+    grid-column-start: 7;
+
+}
+div>h3{
+    color: #ffffff;
+    background:#E1C989 ;
+    display: inline-grid;
+    grid-template-rows: auto;
+    grid-template-columns: repeat(5,auto);
+    border-radius: 50px;
+    padding: 8px;
+    font-family: Garamond;
+}
+
+
+nav >a{
+    float: left;
+    display: block;
+    color: #eeeeee;
+    text-align: center;
+    padding: 15px 18px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Garamond;
+}
+nav >a:hover{
+    color: #d6cae2;}
+.r{
+    height: 50px;
+}
+ul{
+    display: grid;
+    row-gap: 10px;
+    font-size: 20px;
+
+
+
+}
+li>a{
+    text-decoration: none;
+font-size: x-large;
+    font-weight: bold;
+    color: #C5C3FF;
+
+    font-family: Garamond;
+}
+ul>li>a:hover{
+    color:#7E7AE7;
+    text-decoration: none;
+}
+button>a{
+    text-decoration: none;
+    border: none;
+    font-size: 15px;
+    color:#F1E9F9 ;
+}
+button{
+background:  #121046;
+    color:#F1E9F9 ;
+    margin-left: 27px;
+padding-right: 30px;
+    font-size: 15px;
+    padding-left: 30px;
+    text-align: center;
+}
+caption{
+
+    padding: 12px;
+    font-size: 26px;
+    background:  #3C2F4A;
+    font-family: Garamond;
+    color: #F1E9F9;
+    border-radius: 10px;
+}
+label{
+    font-size: 20px;
+    font-family: Garamond;
+}
+input{
+    font-size: 17px;
+   padding: 5px;
+
+}
+input:focus{
+    background:#F0E2B8;
+
+}
+table{
+    display: grid;
+    row-gap: 20px;
+    font-size: 40px;
+}
+tbody{
+    display: grid;
+    row-gap: 2px;
+    grid-template-rows: repeat(5,auto);
+}
+tr{
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 0.45fr 2fr  2fr ;
+
+}
+input[type=submit]
+{
+    background: #3C2F4A;
+    color:#F1E9F9 ;
+    margin-left: 27px;
+    padding-right: 30px;
+    font-size: 15px;
+    padding-left: 30px;
+    text-align: center;
+}
+div .j{
+    display: grid;
+    grid-template-rows: auto;;
+    grid-template-columns: auto auto;
+}
+p{
+    font-family: Garamond;
+    font-size: 20px;
+    color :  #ffffff;
+    background:#121046;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 7px;
+    border-radius: 6px;
+}
+.k{
+    display: grid;
+    grid-template-rows: auto ;
+    grid-template-columns: 0.3fr 1fr 1fr 1fr 1fr 1fr  ;
+
+}

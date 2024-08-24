@@ -1,0 +1,174 @@
+ 
+
+
+*{
+    font-family: Garamond;
+}   
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+   
+
+}
+nav{
+    margin-top: 0;
+    padding-top: 0;
+    background-color: #333;
+    height:7rem;
+    color:  white;
+    /*border-radius: 3rem;*/
+    
+}
+
+nav ul li{
+    margin-top:0 ;
+    padding-top: 0;
+    font-size:1.3rem;
+    display: inline-block;
+    padding: 5px;
+    color: #F1E9F9;
+
+}
+
+.circle{
+    border-radius: 50px;
+    margin-left: 0.5%;
+    margin-top: 0.3rem;
+
+}
+
+header{
+    background-color:  rgb(107, 145, 187);
+    background-size:100rem;
+   
+    position: relative;
+    height: 700px;
+}
+.Hero-bg{
+    width:50%;
+    height: 105%;
+    margin-top: 1rem;
+    margin-left: 30%;
+    margin-bottom: 100px;
+    padding-bottom: 6rem;
+    top:20%;
+    padding-left: 20%;
+    position: absolute;
+    z-index:-1;
+}
+
+
+ul{
+    padding: 1.75rem;
+    text-align: right;
+    margin:0;
+    color: white;
+   
+}
+
+.floatleft{
+    float: left;
+}
+
+
+nav a{
+    text-decoration:none;
+    font-size: larger;
+    margin: 0.5rem;
+    font-weight: bold;
+   
+}
+
+h2{
+    text-align: center;
+    font-size: 5rem;
+}
+
+figure{
+    /*background-color: aliceblue;*/
+    width: 25rem;
+}
+
+.Bookcontainer{
+   /*background-color:#F1E9F9;*/
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100rem;
+    min-height: fit-content;
+    flex-wrap: wrap;
+   /*  border: solid #000; */
+    outline-offset: 25px;
+    outline: #000 solid;
+    font-size: medium;
+}
+
+
+.navigationhome a:link{
+    color:  white;
+    
+}
+
+
+.navigationhome a:hover{
+    color: white ;
+    
+}
+.headline{
+    background-color:#F1E9F9;;
+    font-size: 4rem;
+    margin-left: 20rem;
+   text-align: center;
+   margin-top: 7rem;
+   padding-top:30px;
+
+  
+   width: 60%;
+   margin-right: 1rem;
+   height: 200px;
+   color: #3C2F4A;
+   font-weight: bolder;
+
+}
+
+.ViewMore1{
+    border-color: #3C2F4A;
+    border-radius: 100px;
+    margin-left: 50rem;
+    width: 200px;
+    height: 30px;
+    
+    background-color:#F1E9F9 ;
+    font-size: large;
+    font-weight: bold;
+    color:#3C2F4A;
+
+}
+hr{
+    margin-top:100px ;
+    border: solid #F1E9F9;
+    border-width: 4px;
+}
+
+.viewMore{
+   
+    margin-top: 60px;
+    margin-left:900px;
+}
+
+.BackgroundImg{
+    float:left;
+}
+.Featured-Books{
+    padding: 10px;
+    width: max-content;
+    background-color: #F1E9F9;
+    border: solid black;
+    font-size: larger;
+}
+.Featured-Books .title{
+    text-align: center;
+}

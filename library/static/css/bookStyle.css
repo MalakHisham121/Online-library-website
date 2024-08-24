@@ -1,0 +1,275 @@
+/* General styling */
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('../images/lib.jpg') no-repeat center center fixed;
+    background-size: 100%;
+    backdrop-filter: blur(4px);
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(107, 145, 187);
+    align-items: center;
+    padding: 50px 20px;
+    
+    min-height: 100vh;
+}
+
+/* Navbar styling */
+nav {
+    background-color: rgba(51, 51, 51, 0.9);
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 4%;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    justify-content: center; /* Center the navigation links */
+    align-items: center;
+  
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 10px; /* Adjust margin to control spacing between links */
+}
+
+nav ul li a {
+    color: #fff; /* Link color */
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 15px;
+    display: block; /* Ensure clickable area includes padding */
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Books section styling */
+.books {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #080808;
+    max-width: 1500px;
+    margin:50px auto 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+h2 {
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+form#bookInfo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; /* Adjust gap between elements */
+    margin-bottom: 20px;
+}
+
+form#bookInfo select,
+form#bookInfo input[type="text"],
+form#bookInfo button {
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #0056b3;
+}
+
+
+form#bookInfo  {
+    color:white;
+   
+}
+
+
+form#bookInfo select {
+    min-width: 200px;
+   
+}
+
+form#bookInfo input[type="text"] {
+    flex-grow: 1;
+    min-width: 200px;
+}
+
+form#bookInfo button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+form#bookInfo button:hover {
+    background-color: #0056b3;
+
+}
+
+.filter-area .topFilter{
+    margin-top: 50px;
+    width: 200px;
+    padding-left: 80px;
+}
+.filter-area .MedFilter{
+
+    width: 200px;
+    padding-left: 60px;
+    margin-top: 4px;
+}
+.book-item a:link,a:visited,a:active{
+    color:#000000;
+    text-decoration: none;
+    
+}
+.book-item a:hover{
+    color:#3b4e5c;
+    text-decoration: none;
+}
+.book-item {
+    background-color: hsl(30, 9%, 87%);
+    color:black;
+    
+    margin: 10px 0;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: left;
+}
+
+a:link, a:visited, a:active {
+    color: #fff; 
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgba(0, 0, 0, 0.571);
+    text-decoration: none;
+}
+
+.bookPage #bookPageURL{
+   margin: 20px;
+    color: whitesmoke;
+    font-weight: bolder;
+    
+
+    
+}
+.bookPage  button {
+     margin: 20px;
+     background-color: rgba(14, 49, 89);
+     padding: 15px;
+     border-radius: 40px;
+ 
+
+     
+ }
+.bookPage {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    margin: 100px auto;
+    padding: 50px;
+    padding-bottom: 30px;
+    border-radius: 20px;
+    max-width: 100%;
+    font-size: x-large;
+}
+.bookPage p{
+   padding-top: 20px;
+   padding-bottom: 20px;
+
+ 
+}
+
+
+.filter-area {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: inline;
+}
+
+.filter {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 40px;
+    color: white;
+}
+
+
+/* About page styling */
+header {
+    margin-top: 8%; /* Adjust margin to push content below the navbar */
+    text-align: center;
+}
+
+header h1 {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+main {
+    padding: 20px;
+    background:  rgba(14, 49, 89, 0.629);
+    border-radius: 10px;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+
+.p1 {
+    background-color: hsl(30, 9%, 87%);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.p2 {
+    background-color: hsl(30, 9%, 87%);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.p3 {
+    background-color: hsl(30, 9%, 87%);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+.p1 h2, .p2 h2, .p3 h2 {
+    color: #000000;
+}
+
+.p1 p, .p2 p, .p3 p {
+    line-height: 1.6;
+    margin-bottom: 10px;
+    color: hsl(0, 0%, 0%);
+}
+
+.p1 a:hover, .p2 a:hover, .p3 a:hover {
+    text-decoration: underline;
+}
+div h2{
+    color: #fff;
+}
+.b{
+    color: #fff;
+}
+.m{
+    color: #000000;
+}

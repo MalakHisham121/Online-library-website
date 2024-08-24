@@ -1,0 +1,22 @@
+{%load static%}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    {% load static %}
+        <link rel="stylesheet" href="{% static 'css/navbar.css' %}" />
+    
+    <nav>
+        <a class = "f" href="{%  url 'contact'%}" target="_blank">contactus</a>
+             <a href="{%  url 'logoutUser'%}" target="_blank">Logout</a>
+            <a href="{%  url 'home' %} "target="_blank">Home</a>
+           <a href="{% url 'borrowedBooks' %}" target="_blank">BorrowedBooks</a>
+                   <a href="{% url 'dashboard' %}" target="_blank">Books dashboard</a>
+            <a  href="{% url 'search_books' %}" target="_blank">🔍</a>
+        <a href="{% url 'about'%}" target="_blank">About us </a>
+    </nav>
+</head>
+<body>
+
+</body>
+</html>

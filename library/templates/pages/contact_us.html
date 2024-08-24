@@ -1,0 +1,54 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href={% static "css/contactUS.css" %}>
+    
+</head>
+
+<body>
+
+    <header>
+                             {% include 'parts/nav2.html' %} 
+
+      <!--  <nav>
+            <ul>
+                <li><a href="Book store/search.html" target="_blank">🔍</a></li>
+                <li><a href="WEB/SignUp.html" target="_blank">sign up</a></li>
+                <li><a href="Login.html" target="_blank">Login</a></li>
+                <li><a href="homepage.html" target="_blank">Home</a></li>
+                <li><a href="instucrtions.html" target="_blank">Instucrtions</a></li>
+                <li><a href="books dashboard.html" target="_blank">Books dashboard</a></li>
+                <li><a href="WEB/Book-Manager.html" target="_blank">Book Manager </a></li>
+                <li><a href="borrowedBooks.html" title="View borrowed books" target="_blank">Borrowed Books</a></li> 
+
+            </ul>
+        </nav>
+        -->
+    </header>
+        {% if messages %}
+    {% for message in messages %}
+        <div style="color: #a41515 ;font-size :30px; text-align:center ">{{ message }}</div>
+    {% endfor %}
+{% endif %}
+{% block contactus %}
+    <h1>Contact Us</h1>
+    <p class="pp">Thank you for visiting!<br>
+    please feel free to contact us using the form below
+    You can also call us at <b>987321</b>.</p>
+    <form method = "POST">
+    {% csrf_token %}
+        <fieldset>
+            <legend>Send Us A Message</legend>
+     {{ Contactus }}
+            <button type="submit">Send</button>
+            <button type="reset">Reset</button>
+        </fieldset>
+    </form>
+{% endblock contactus %}
+</body>
+
+</html>

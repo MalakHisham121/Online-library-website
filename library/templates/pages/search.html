@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ONLINE LIBRARY</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/bookStyle.css' %}" />
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="{% url 'signup' %}" target="_blank">Sign Up</a></li>
+                <li><a href="{% url 'login_user' %}" target="_blank">Login</a></li>
+                <li><a href="{% url 'home' %}" target="_blank">Home</a></li>
+                <li><a href="{% url 'search_books' %}">Search</a></li>
+                <li><a href="{% url 'about' %}" target="_blank">About</a></li> 
+            </ul>
+        </nav>
+    </header>
+
+    <div class="books">
+        <h2>search</h2>
+        <form id="bookInfo" method="get" action="{% url 'search_books' %}">
+            <select id="searchType" name="searchType" required>
+                <option value="name">Search by Name</option>
+                <option value="author">Search by Author</option>
+                <option value="category">Search by Category</option>
+            </select>
+            <!-- Add 'value' attribute to input field to prepopulate it if search_term is not None -->
+            <input type="text" id="Searchtxt" name="Searchtxt" placeholder="Enter your search term" {% if search_term is not None %}value="{{ search_term }}"{% endif %} required />
+            <button type="submit" id="Searchbtn">Search</button>
+        </form>
+        
+        <div id="book-list">
+            {% if books %}
+                {% for book in books %}
+                    <div class="book-item">
+                        <h3>{{ book.name }}</h3>
+                        <p><b>Author:</b> {{ book.author }}</p>
+                        <p><b>Category:</b> {{ book.category }}</p>
+                        <p><b>Description:</b> {{ book.description }}</p>
+                        <p><b>Status:</b> {{ book.status }}</p>
+                    </div>
+                {% endfor %}
+            {% else %}
+                <p class="b">No books found.</p>
+            {% endif %}
+        </div>
+    </div>
+</body>
+</html>

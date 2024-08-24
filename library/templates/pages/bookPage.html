@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{book.name}}</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/bookStyle.css'%}" />
+  </head>
+  <body>
+    <div>
+      <nav>
+        <ul>
+          <li><a href="search.html" target="_blank">🔍</a></li>
+          <li><a href="{% url 'home'%}" target="_blank">Home</a></li>
+          <li>
+            <a
+              href="borrowedBooks.html"
+              title="View borrowed books"
+              target="_blank"
+              >Borrowed Books</a
+            >
+          </li>
+          <li><a href="contact_us.html" target="_blank">Contact Us</a></li>
+          <li><a href="SignUp.html" target="_blank">sign up</a></li>
+          <li><a href="Login.html" target="_blank">Login</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="bookPage">
+      <div class="book-item">
+        <h1>{{ book.name }}</h1>
+        <p><b>description: </b>{{ book.description }}</p>
+        <p><b>Author:</b>{{ book.author }}</p>
+        <p><b>Status: </b>{{ book.status }}</p>
+        {% for borrowed_book in allBorrowed %}<!---->
+        {% if borrowed_book.book_id_id == book.id %}
+        <button>
+          <a
+            href="{% url 'bookPage' book.id %}?return={{ book.id }}"
+            id="bookPageURL"
+            >Return</a
+          >
+        </button>
+        {% endif %}{% endfor %}<!---->
+        {% if book.status == "Available" %}
+        <button>
+          <a
+            href="{% url 'bookPage' book.id%}?borrow={{book.id}}"
+            id="bookPageURL"
+          >
+            Borrow</a
+          >
+        </button>
+        {% endif %}
+      </div>
+    </div>
+    <script src="available-Script.js"></script>
+  </body>
+</html>

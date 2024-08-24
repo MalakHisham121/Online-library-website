@@ -1,0 +1,56 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Borrowed Books</title>
+    <link rel="stylesheet"  href="{% static 'css/borrowedBooks.css' %}">
+</head>
+<body>
+
+    <div class="nav">
+        <nav>
+            <ul>
+                <li><a href="{% url 'home'%}" target="_blank">Home</a></li>
+                <li><a href="{% url 'dashboard'%}" target="_blank">Books dashboard</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="borrowedBooks" id="borrowedBooks">
+        {% if messages %}
+            <ul class="messages">
+                {% for message in messages %}
+                    <li{% if message.tags %} class="{{ message.tags }}"{% endif %}>{{ message }}</li>
+                {% endfor %}
+            </ul>
+        {% endif %}
+    </div>
+
+    <h1>Your Borrowed Books</h1>
+    <ul>
+        {% for book in borrowed_books %}
+        <li>
+            <div class="book-info">
+                <span>{{ book.book_id.name }}</span> by <span>{{ book.book_id.author }}</span>
+            </div>
+            <div class="borrowed-info">
+                Borrowed on: {{ book.borrowed_date }}
+            </div>
+            {% if book.return_date %}
+                <div class="returned-info">
+                    Returned on: {{ book.return_date }}
+                </div>
+            {% else %}
+                <form action="{% url 'return_book' borrowed_id=book.id %}" method="post">
+                    {% csrf_token %}
+                    <button type="submit">Return</button>
+                </form>
+            {% endif %}
+        </li>
+        {% empty %}
+            <li>No borrowed books.</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

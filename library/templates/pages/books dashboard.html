@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Books</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/bookStyle.css'%}" />
+  </head>
+  <body>
+    <div class="nav">
+      <nav>
+        <ul>
+          <a href="{% url 'search_books' %}" target="_blank">Search</a>
+          <li><a href="{% url 'home'%}" target="_blank">Home</a></li>
+          <li><a href="{% url 'about' %}" target="_blank">About</a></li>
+          <li>
+            <a
+              href="{%url 'borrowedBooks'%}"
+              title="View borrowed books"
+              target="_blank"
+              >Borrowed Books</a
+            >
+          </li>
+
+          <li><a href="{% url 'contact' %}" target="_blank">Contact Us</a></li>
+          
+        <a href="{%  url 'signup'%}" target="_blank">sign up</a>
+        <a href="{%  url 'login_user'%}" target="_blank">sign up</a>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="books-container">
+      <div class="filter-area">
+        <p class="filter topFilter"><a href="{% url 'dashboard' %}">All</a></p>
+        <p class="filter MedFilter">
+          <a href="{% url 'dashboard' %}?q=Available">Available</a>
+        </p>
+        <p class="filter MedFilter">
+          <a href="{% url 'dashboard' %}?q=Not Available">Unavailable</a>
+        </p>
+      </div>
+
+      <div class="books">
+        <h2>Books</h2>
+        <div id="available-book-list">
+          {% for book in Avbooks %}
+          <div class="book-item">
+            <h3><a href="{% url 'bookPage' book.id%}">{{ book.name }}</a></h3>
+            <p><b>description: </b>{{ book.description }}</p>
+            <p><b>Author:</b>{{ book.author }}</p>
+            <p><b>Status: </b>{{ book.status }}</p>
+            {% for borrowed_book in allBorrowed %}<!---->
+            {% if borrowed_book.book_id_id == book.id %}
+            <a href="{% url 'dashboard' %}?return={{ book.id }}"><button>Return</button></a>
+            {% endif %}{% endfor %}<!---->
+            {% if book.status == "Available" %}
+            <a href="{% url 'dashboard'%}?borrow={{book.id}}">
+              <button>Borrow</button></a>
+            {% endif %}
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

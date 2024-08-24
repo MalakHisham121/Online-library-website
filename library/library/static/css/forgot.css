@@ -1,0 +1,28 @@
+{%load static%}
+body {
+    background-size: 100%;
+    backdrop-filter: blur(4px);
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(107, 145, 187);
+    align-items: center;
+    padding: 50px 20px;
+
+    min-height: 100vh;
+}
+
+form{
+    display: grid;
+    font-size: 50px;
+}
+
+p{
+    font-size: 50px;
+    background-color: #bbccdd;
+    padding: 20px 80px;
+
+}
+input{
+    font-size: 50px;
+
+}

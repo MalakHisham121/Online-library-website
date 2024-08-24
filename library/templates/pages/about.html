@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>About Library</title>
+    {% load static %}
+    
+    <!-- Link to the provided CSS file -->
+    <link rel="stylesheet" href="{% static 'css/bookStyle.css' %}">
+</head>
+<body>
+    <header>
+        <h1 class="m">About Library</h1>
+                          {% include 'parts/nav2.html' %} <! 
+
+    </header>
+
+    <main>
+        <section class="p1">
+            <h2>Introduction</h2>
+            <p>Welcome to our online library! Our library aims to provide a vast collection of books to cater to the reading interests of our users. Whether you're a student, researcher, or just an avid reader, we have something for everyone.</p>
+        </section>
+
+        <section class="p2">
+            <h2>Our Mission</h2>
+            <p>Our mission is to promote literacy and lifelong learning by providing access to a diverse range of books and resources. We strive to create an inclusive and supportive environment where individuals can explore, learn, and grow.</p>
+        </section>
+
+        <section class="p3">
+            <h2>Contact Us</h2>
+            <p>If you have any questions, suggestions, or feedback, please don't hesitate to contact us:</p><a href="{% url 'contact' %}" target="_blank">Contact us </a></li>
+
+            
+        </section>
+    </main>
+</body>
+</html>

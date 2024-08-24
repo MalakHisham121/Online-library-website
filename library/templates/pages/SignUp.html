@@ -1,0 +1,63 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Create an account
+        </title>
+        <link rel="stylesheet" type="text/css" href={% static "css/style.css"%}>
+      
+    </head>
+    
+    <body>
+         {% if messages %}
+    {% for message in messages %}
+        <div style="color: #a41515 ;font-size :30px; text-align:center ">{{ message }}</div>
+    {% endfor %}
+{% endif %}
+            {% block signup %}
+                
+                <fieldset class = "SignUp_box">
+                <h2 >Sign Up</h2><br>
+                <form method="POST" id="signupForm">  
+                {% csrf_token %}
+                  
+                {{ Signup }}
+                <!--
+           
+            <label>Username:</label><br>
+            </b>
+           <input id = "Username" type="text" placeholder="Username" name="name" required>
+           <br>
+            <b>
+            <label>Password:</label><br>
+            </b>
+             <input id="password" type="password" placeholder="complex password" name="password" required>
+           <br>
+            <b>
+            <label>confirm_password:</label><br>
+            </b>
+             <input  id="confirm_password" type="password" placeholder="confirm_password" required>
+           <br>
+            <b>
+            <label>Email:</label><br>
+            </b>
+              <input type="email" placeholder="name@gmail.com" name="email" required>
+          <br> 
+              <input type="hidden" value="0">
+              <input type="checkbox" value="1">
+              <label type="is_admin_checkbox">Sign up as admin</label><br><br>
+            -->
+            <input type="submit" value="SignUp">
+                <br>
+                
+        </form>
+                
+           </fieldset>
+         <script src={% static "js/script.js" %} ></script>
+             
+        
+    </body>
+{% endblock signup %}
+</html>

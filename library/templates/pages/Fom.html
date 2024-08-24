@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ONLINE LIBRARY</title>
+  </head>
+  <body>
+    <div class="books">
+      <h2>ONLINE LIBRARY</h2>
+      <form method ="POST" id="bookInfo">
+         {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Add Book</button>
+
+
+      </div>
+    </div>
+  </body>
+</html>

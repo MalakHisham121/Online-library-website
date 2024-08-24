@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c018cf6b-37ec-46bc-b472-41a7eab19429" name="Changes" comment="Final project" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2f97ICG9xkfOIyVnvKlbzugKyqK" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/web2&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-91d5c284f522-JavaScript-PY-241.15989.155" />
+        <option value="bundled-python-sdk-babbdf50b680-7c6932dee5e4-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-241.15989.155" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c018cf6b-37ec-46bc-b472-41a7eab19429" name="Changes" comment="" />
+      <created>1713201358913</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1713201358913</updated>
+      <workItem from="1713201360077" duration="354000" />
+      <workItem from="1713201717098" duration="455000" />
+      <workItem from="1713202175279" duration="6532000" />
+      <workItem from="1713274983550" duration="5371000" />
+      <workItem from="1713283397082" duration="1215000" />
+      <workItem from="1713288498781" duration="8682000" />
+      <workItem from="1713618794424" duration="1921000" />
+      <workItem from="1713622598180" duration="4251000" />
+      <workItem from="1713668164496" duration="4308000" />
+      <workItem from="1713678310206" duration="10342000" />
+      <workItem from="1715252604255" duration="48000" />
+      <workItem from="1715258194378" duration="1856000" />
+      <workItem from="1724532971612" duration="312000" />
+    </task>
+    <task id="LOCAL-00001" summary="phase 1 completed">
+      <option name="closed" value="true" />
+      <created>1713201480703</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1713201480704</updated>
+    </task>
+    <task id="LOCAL-00002" summary="phase 1 completed">
+      <option name="closed" value="true" />
+      <created>1713202218611</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1713202218611</updated>
+    </task>
+    <task id="LOCAL-00003" summary="phase 1 completed">
+      <option name="closed" value="true" />
+      <created>1713202439348</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1713202439348</updated>
+    </task>
+    <task id="LOCAL-00004" summary="phase 1 completed">
+      <option name="closed" value="true" />
+      <created>1713278794277</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1713278794277</updated>
+    </task>
+    <task id="LOCAL-00005" summary="phase 1 completed">
+      <option name="closed" value="true" />
+      <created>1713278815099</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1713278815099</updated>
+    </task>
+    <task id="LOCAL-00006" summary="phase 1 completed">
+      <option name="closed" value="true" />
+      <created>1713280377145</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1713280377145</updated>
+    </task>
+    <task id="LOCAL-00007" summary="phase 1 completed">
+      <option name="closed" value="true" />
+      <created>1713288658450</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1713288658450</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Malak">
+      <option name="closed" value="true" />
+      <created>1713294749610</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1713294749610</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Malak">
+      <option name="closed" value="true" />
+      <created>1713624126592</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1713624126592</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Malak">
+      <option name="closed" value="true" />
+      <created>1713626866022</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1713626866024</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Malak">
+      <option name="closed" value="true" />
+      <created>1713668241148</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1713668241149</updated>
+    </task>
+    <task id="LOCAL-00012" summary="files organized">
+      <option name="closed" value="true" />
+      <created>1713670335280</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1713670335280</updated>
+    </task>
+    <task id="LOCAL-00013" summary="phase 2 completed">
+      <option name="closed" value="true" />
+      <created>1715248958861</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1715248958861</updated>
+    </task>
+    <task id="LOCAL-00014" summary="phase 2 completed">
+      <option name="closed" value="true" />
+      <created>1715249276746</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1715249276746</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Final project">
+      <option name="closed" value="true" />
+      <created>1724533184932</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1724533184932</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="phase 1 completed" />
+    <MESSAGE value="Malak" />
+    <MESSAGE value="files organized" />
+    <MESSAGE value="phase 2 completed" />
+    <MESSAGE value="Final project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Final project" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/WEB/BookScript.js</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
