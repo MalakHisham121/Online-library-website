@@ -215,7 +215,7 @@ def login_user(request):
                     else:
                         return redirect('../home')
                 else:
-                    messages.error(request, 'Invalid username . Please try again.')
+                    messages.error(request, 'Password Incorrect . Please try again.')
                     return render(request, 'pages/Login.html')
 
         else :
