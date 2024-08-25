@@ -12,7 +12,7 @@ class ContactusForm(forms.ModelForm):
     username = forms.CharField(label='username', widget=forms.TextInput(attrs={'class': 'form-control'}))
     class Meta:
         model = User2
-        fields = ['username','name', 'email', 'textarea']
+        fields = ['username', 'textarea']
 
 class  SignupForm(forms.ModelForm):
     password = forms.CharField(label='password', widget=forms.PasswordInput)
