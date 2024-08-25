@@ -205,18 +205,21 @@ def login_user(request):
         e = request.POST.get('username')
         pas = request.POST.get('password')
         id2 = User2.objects.filter(username=e)
-
-
         if id2.exists():
                 id = User2.objects.get(username=e)
-                login(request, id)
-                if id.admin == False:
-                    return render(request, 'pages/home2.html',
-                                 {'books': books.objects.filter(name="Data Structures and Algorithm Analysis in C++")})
+                if id.password == pas:
+                    login(request, id)
+                    if id.admin == False:
+                        return render(request, 'pages/home2.html',
+                                     {'books': books.objects.filter(name="Data Structures and Algorithm Analysis in C++")})
+                    else:
+                        return redirect('../home')
                 else:
-                    return redirect('../home')
+                    messages.error(request, 'Invalid username . Please try again.')
+                    return render(request, 'pages/Login.html')
+
         else :
-                messages.error(request, 'Invalid username or password. Please try again.')
+                messages.error(request, 'Invalid username . Please try again.')
                 return render(request, 'pages/Login.html')
     else:
          return render(request, 'pages/Login.html')
@@ -227,10 +230,11 @@ def contactus(request):
         d = User2.objects.filter(username= data['username'].value())
         if d.exists():
              d = User2.objects.get(username = data['username'].value())
+
              d.textarea = request.POST.get('textarea')
              d.save()
         else:
-            messages.error(request, 'Email not found. Please try again.')
+            messages.error(request, 'Username not found. Please try again.')
             return render(request, 'pages/contact_us.html', {'Contactus': ContactusForm})
     return render(request, 'pages/contact_us.html', {'Contactus': ContactusForm})
 
